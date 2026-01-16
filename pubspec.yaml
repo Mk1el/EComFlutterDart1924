@@ -1,0 +1,53 @@
+name: ecommerce_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+  iconsax: ^0.0.8
+  smooth_page_indicator: ^1.1.0
+
+  # State Management & Storage
+  get: ^4.6.6
+  get_storage: ^2.1.1
+
+  # Utilities
+  http: ^1.1.0
+  intl: ^0.18.1
+  logger: ^2.0.1
+  url_launcher: ^6.2.5
+  flutter_native_splash: ^2.4.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # assets:
+  #   - assets/logos/
+  #   - assets/icons/
+  #   - assets/images/on_boarding_images/
+
+  assets:
+    - assets/logo/
+    - assets/images/splash_images/
+    - assets/images/welcome_images/
+    - assets/icons/
+    - assets/images/on_boarding_images/
+    - assets/images/animations/
+   
+
+
