@@ -1,3 +1,4 @@
+import 'package:ecommerce_app/features/authentication/screens/password_configuration/forgot_password.dart';
 import 'package:ecommerce_app/features/authentication/screens/signup/signup.dart';
 import 'package:ecommerce_app/utils/constants/colors.dart';
 import 'package:ecommerce_app/utils/constants/image_strings.dart';
@@ -51,7 +52,7 @@ class TLoginForm extends StatelessWidget {
                   ],
                 ),
                 TextButton(
-                  onPressed: () {},
+                  onPressed: ()=> Get.to(()=> const ForgotPassword()),
                   child: const Text(TTexts.tForgetPassword),
                 ),
               ],

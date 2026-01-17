@@ -97,6 +97,9 @@ class TTexts {
   static const String tForgetPasswordSubTitle = "Select one of the options given below to reset your password.";
   static const String tResetViaEMail = "Reset via Mail Verification";
   static const String tResetViaPhone = "Reset via Phone Verification";
+  // -- Reset Password
+  static const String resetPasswordTitle = "Change your password";
+  static const String resetPasswordSubTitle = "Changing your password!";
 
   // -- Forget Password Via Phone - Text
   static const String tForgetPhoneSubTitle = "Enter your registered Phone No to receive OTP";
