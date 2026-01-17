@@ -6,10 +6,10 @@ class OnBoardingController extends GetxController{
   static OnBoardingController get instance => Get.find();
   final pageController = PageController();
   Rx<int> currentPageIndex = 0.obs;
-  void updatePageIndicator(index) => currentPageIndex = index;
-  void dotNavigationClick(index){
+  void updatePageIndicator(int index) => currentPageIndex.value = index;
+  void dotNavigationClick(int index){
     currentPageIndex.value = index;
-    pageController.jumpTo(index);
+    pageController.jumpToPage(index);
   }
   void nextPage(){
     if(currentPageIndex.value == 2){
